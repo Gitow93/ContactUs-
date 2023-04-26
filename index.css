@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.title {
+  color: #099d8d;
+  font-size: 16px;
+}
+.subtitle {
+  color: #099d8d;
+}
