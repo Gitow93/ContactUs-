@@ -1,5 +1,4 @@
 * {
-<<<<<<< Updated upstream
   box-sizing: border-box;
 }
 .title {
@@ -8,9 +7,6 @@
 }
 .subtitle {
   color: #099d8d;
-}
-=======
-    box-sizing: border-box;
 }
 
 .NavBar {
@@ -27,4 +23,3 @@
     font-size: 16px;
     margin: auto;
 }
->>>>>>> Stashed changes
