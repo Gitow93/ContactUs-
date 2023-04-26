@@ -35,6 +35,23 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.header {
+  height: 421px;
+  background-image: url("./styles/img/img_one.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.header-section {
+  background-color: #ffffff;
+  margin: 0 15px 0 15px;
+  padding: 15px 0;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
 .title,
 .subtitle {
   color: #099d8d;
