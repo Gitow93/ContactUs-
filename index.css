@@ -2,43 +2,6 @@
   box-sizing: border-box;
   margin: 0;
 }
-
-.title,
-.subtitle {
-  color: #099d8d;
-  font-size: 24px;
-  font-family: "Rubik", sans-serif;
-  padding: 30px 0 15px 0;
-  text-align: center;
-}
-.subtitle {
-  font-size: 22px;
-}
-.title-paragraph {
-  color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  justify-content: center;
-  padding: 15px 0 30px 0;
-  margin: auto;
-}
-
-.p1,
-.p2 {
-  color: #54585a;
-  text-align: center;
-  justify-content: center;
-  font-family: "Open Sans", sans-serif;
-  margin: auto;
-}
-.p2 {
-  padding: 0 0 45px 0;
-}
-.tips-container {
-  background-color: #f7f7f7;
-  color: #54585a;
-}
-
 .NavBar {
   background-color: #099d8d;
   color: white;
@@ -71,4 +34,79 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+.title,
+.subtitle {
+  color: #099d8d;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  padding: 30px 0 15px 0;
+  text-align: center;
+}
+.subtitle {
+  font-size: 22px;
+}
+.title-paragraph {
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 10px 30px;
+  margin: auto;
+}
+
+.p1,
+.p2 {
+  color: #54585a;
+  text-align: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 10px;
+}
+.p2 {
+  padding-bottom: 45px;
+}
+.tips-container {
+  background-color: #f7f7f7;
+  color: #54585a;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .title,
+  .subtitle {
+    padding: 45px 0 15px 0;
+  }
+  .title-paragraph {
+    padding: 15px 30px 60px;
+  }
+
+  .p1,
+  .p2 {
+    text-align: center;
+    justify-content: center;
+    padding: 0 15px 45px 15px;
+  }
+  .tips-container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .title,
+  .subtitle {
+    padding: 45px 0 15px 0;
+  }
+  .title-paragraph {
+    padding: 15px 30px 30px 30px;
+    width: 601px;
+  }
+
+  .p1,
+  .p2 {
+    text-align: center;
+    justify-content: center;
+    padding: 0 22.5px 60px 22.5px;
+  }
+  .tips-container {
+    display: flex;
+  }
 }
