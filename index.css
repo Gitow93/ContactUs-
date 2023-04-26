@@ -54,3 +54,21 @@
   font-size: 16px;
   margin: auto;
 }
+
+.NavSections {
+  background-color: #099d8d;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavSections a {
+  color: white;
+  font-size: 13px;
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
