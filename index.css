@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 .title {
   color: #099d8d;
@@ -9,35 +10,70 @@
   color: #099d8d;
 }
 
-.NavBar {
-    background-color: #077e72;
+.team-name {
+      display: block;
+      color: white;
+      text-align: center;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      background-color: #077e72;
+      justify-content: center;
+  } 
+
+  .title-nav {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
     color: white;
-    text-align: center;
     height: 60px;
     display: flex;
     align-items: center;
-} 
+    }
 
-.titleNav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    margin: auto;
-}
+  .nav-sections {
+      background-color: #099D8D;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 
-.NavSections {
-    background-color: #099D8D;
-    height: 45px;
-    width: 100%;
+  .nav-sections a {
+      color: white;
+      font-size: 13px;
+      font-family: 'Rubik', sans-serif;
+      margin: 0 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .navbar {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+
+  .nav-sections {
+    width: 60%;
+    height: 60px;
+    justify-content: flex-end;
+    padding-right: 45px;
+  }
+
+  .team-name {
+    width: 40%;
+    background-color: #099D8D;
+  }
+
+  .title-nav {
+    margin-left: 45px;
+  }
+
+  .nav-sections a {
+    margin-left: 45px;
+  }
 }
 
-.NavSections a {
-    color: white;
-    font-size: 13px;
-    margin: 0 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+@media only screen and (min-width: 1201px) {
+  
 }
