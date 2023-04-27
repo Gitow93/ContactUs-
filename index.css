@@ -48,7 +48,7 @@ align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .header-section {
   background-color: #ffffff;
@@ -98,8 +98,11 @@ align-items: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .heaeder {
+    display: flex;
+  }
   .header-section {
-    position: relative;
+    align-items: end;
   }
   .team-title,
   .team-subtitle {
