@@ -11,6 +11,7 @@
   align-items: center;
   background-color: #077e72;
   justify-content: center;
+  opacity: 95%;
 }
 
 .title-nav {
@@ -28,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 95%;
 }
 
 .nav-sections a {
