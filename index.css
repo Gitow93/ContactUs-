@@ -12,19 +12,19 @@
   background-color: #077e72;
   justify-content: center;
   opacity: 95%;
-} 
+}
 
 .title-nav {
-font-family: 'Rubik', sans-serif;
-font-size: 16px;
-color: white;
-height: 60px;
-display: flex;
-align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-sections {
-  background-color: #099D8D;
+  background-color: #099d8d;
   height: 45px;
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@ align-items: center;
 .nav-sections a {
   color: white;
   font-size: 13px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 0 10px;
   text-decoration: none;
   text-transform: uppercase;
@@ -98,11 +98,18 @@ align-items: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .heaeder {
-    display: flex;
+  .header {
+    margin-bottom: 0;
   }
   .header-section {
-    align-items: end;
+    position: relative;
+    top: 280px;
+    margin-left: 30px;
+    width: 441px;
+    opacity: 50%;
+  }
+  .p-section {
+    opacity: 99%;
   }
   .team-title,
   .team-subtitle {
@@ -110,6 +117,7 @@ align-items: center;
   }
   .team-paragraph {
     padding: 15px 30px 60px;
+    width: 601px;
   }
 
   .p1,
@@ -148,6 +156,17 @@ align-items: center;
   }
 }
 @media screen and (min-width: 1201px) {
+  .header {
+    margin-bottom: 0;
+    height: 550px;
+  }
+  .header-section {
+    position: relative;
+    top: 360px;
+    margin-left: 100px;
+    width: 441px;
+    opacity: 50%;
+  }
   .team-title,
   .team-subtitle {
     padding: 45px 0 15px 0;
