@@ -106,15 +106,46 @@
   background-color: #f7f7f7;
   color: #54585a;
 }
+.team-presentation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+.presentation-title {
+  margin: 30px 0;
+  color: #099d8d;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+}
+.personal-img {
+  border: 5px solid #f7f7f7;
+  border-radius: 20px;
+}
+.personal-name {
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.personal-description {
+  margin: 10px 10px auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+.social-media,
+a {
+  margin: 10px auto 45px;
+  color: #077e72;
+}
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
   margin-bottom: 45px;
+  border-top: 1px solid #bbbbbb;
 }
 .footer-team-name {
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 30px auto 20px;
   font-family: "Open Sans", sans-serif;
   color: #bbbbbb;
 }
