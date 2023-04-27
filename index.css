@@ -72,6 +72,15 @@
 .team-subtitle {
   font-size: 22px;
 }
+.white-square {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 11px;
+  margin: auto;
+  transform: rotate(45deg);
+  background-color: white;
+}
 .team-paragraph {
   color: #54585a;
   font-family: "Open Sans", sans-serif;
@@ -87,6 +96,7 @@
   text-align: center;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   padding: 0 10px;
 }
 .p2 {
@@ -95,6 +105,29 @@
 .tips-container {
   background-color: #f7f7f7;
   color: #54585a;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.footer-team-name {
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #bbbbbb;
+}
+.footer-list {
+  margin: auto;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #bbbbbb;
+  text-align: center;
+}
+.footer-team-logo {
+  margin: auto;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
