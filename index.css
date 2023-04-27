@@ -218,6 +218,35 @@ a {
   .nav-sections a {
     margin-left: 20px;
   }
+
+  .marta,
+  .jorge {
+    margin: auto 50px;
+    margin-bottom: 60px;
+    display: flex;
+    text-align: start;
+  }
+  .marcos {
+    margin: auto 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+  .info-container {
+    margin: auto 30px;
+  }
+  .personal-name {
+    margin-bottom: 15px;
+  }
+  .personal-description {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .personal-img {
+    width: 205px;
+    height: 205px;
+  }
 }
 @media screen and (min-width: 1201px) {
   .header {
@@ -273,5 +302,34 @@ a {
 
   .nav-sections a {
     margin-left: 25px;
+  }
+  .marta,
+  .jorge {
+    margin: auto 200px;
+    margin-bottom: 60px;
+    display: flex;
+    text-align: start;
+  }
+  .marcos {
+    margin: auto 200px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+  .info-container {
+    margin: auto 45px;
+    width: 439px;
+  }
+  .personal-name {
+    margin-bottom: 15px;
+  }
+  .personal-description {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .personal-img {
+    width: 278px;
+    height: 278px;
   }
 }
