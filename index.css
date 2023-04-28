@@ -277,6 +277,7 @@ a {
   }
   .tips-container {
     display: flex;
+    /*HAY QUE CORREGIR LOS MARGENES */
   }
 
   .navbar {
