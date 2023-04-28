@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mi página</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0; maximum-scale=1.0"
+  />
+  <link href="/contact.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="team-name">
+        <h2 class="title-nav">NOMBRE DEL GRUPO</h2>
+      </div>
+      <div class="nav-sections">
+        <a href="#">EQUIPO</a>
+        <a href="#">QUIENES SOMOS</a>
+        <a href="#">CONTACTO</a>
+      </div>
+    </div>
+  </header>
+  
+  <div class="contact-page">
+    <div class="description">
+       <h2>Contacto</h2>
+       <p class="main">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Minima debitis pariatur
+        sapiente voluptatum distinctio officia
+        voluptas? Obcaecati perspiciatis, quas animi,
+        sint officia doloremque nesciunt maiores,
+        similique placeat esse ratione tempora.</p>
+        <p class="letra-pequeña">Todos los campos marcados con <span class="destacado">*</span> son obligatorios</p>
+    </div>
+    <div class="form">
+        <form>
+            <label for="nombre">Nombre completo <span class="destacado">*</span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre..." required>
+    
+            <div class="layout-style">
+              <div>
+            <label for="email">Email <span class="destacado">*</span></label>
+            <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" required>
+            </div>
+
+            <div>
+            <label for="phone">Teléfono</label>
+            <input type="text" id="phone" name="phone" placeholder="Ej:123456789">
+            </div>
+            </div>
+    
+            <label for="mensaje">Mensaje <span class="destacado">*</span></label>
+            <textarea id="mensaje" name="mensaje" placeholder="¿Qué necesitas?" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+  </div>
+</body>
