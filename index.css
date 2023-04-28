@@ -103,7 +103,7 @@
   padding-bottom: 45px;
 }
 .tips-container {
-  background-color: #f7f7f7;
+  background-color: #dbdbdb;
   color: #54585a;
 }
 .team-presentation {
@@ -139,10 +139,12 @@ a {
   color: #077e72;
 }
 .footer {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 45px;
   border-top: 1px solid #bbbbbb;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
 }
 .footer-team-name {
   margin: 30px auto 20px;
@@ -165,37 +167,14 @@ a {
   .header {
     margin-bottom: 0;
   }
-  .header-section {
-    position: relative;
-    top: 280px;
-    margin-left: 30px;
-    width: 441px;
-    opacity: 70%;
-  }
-  .p-section {
-    opacity: 99%;
-  }
-  .team-title,
-  .team-subtitle {
-    padding: 45px 0 15px 0;
-  }
-  .team-paragraph {
-    padding: 15px 30px 60px;
-    width: 601px;
-  }
-
-  .p1,
-  .p2 {
-    text-align: center;
-    justify-content: center;
-    padding: 0 15px 45px 15px;
-  }
-  .tips-container {
-    display: flex;
-  }
-
   .navbar {
     display: flex;
+  }
+  .navbar-color {
+    background-color: #099d8d;
+  }
+  .navbar-width {
+    margin: auto 45px;
   }
 
   .nav-sections {
@@ -218,16 +197,51 @@ a {
   .nav-sections a {
     margin-left: 20px;
   }
+  .header-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .width-section {
+    margin: auto 45px;
+  }
+  .header-section {
+    position: relative;
+    top: 280px;
+    margin-left: 30px;
+    width: 441px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .team-title,
+  .team-subtitle {
+    padding: 45px 0 15px 0;
+  }
+  .team-paragraph {
+    padding: 15px 30px 60px;
+    width: 601px;
+  }
 
+  .p1,
+  .p2 {
+    text-align: center;
+    justify-content: center;
+    padding: 0 15px 45px 15px;
+  }
+  .tips-container {
+    display: flex;
+  }
+  .tips-width {
+    margin: auto 45px;
+  }
+  .team-presentation {
+    margin: auto 45px;
+  }
   .marta,
   .jorge {
-    margin: auto 50px;
     margin-bottom: 60px;
     display: flex;
     text-align: start;
   }
   .marcos {
-    margin: auto 50px;
     margin-bottom: 60px;
     display: flex;
     flex-direction: row-reverse;
@@ -247,19 +261,80 @@ a {
     width: 205px;
     height: 205px;
   }
+  .footer {
+    border-top: 1px solid #bbbbbb;
+    margin-bottom: 60px;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    margin: auto 45px;
+  }
+  .footer-team-name {
+    margin-top: 30px;
+  }
+  .footer-list {
+    margin-top: 30px;
+    text-align: end;
+  }
+  .two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    line-height: 30px;
+  }
 }
 @media screen and (min-width: 1201px) {
   .header {
     margin-bottom: 0;
     height: 550px;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-color {
+    background-color: #099d8d;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-width {
+    width: 924px;
+  }
+  .navbar {
+    display: flex;
+  }
+
+  .nav-sections {
+    width: 60%;
+    height: 60px;
+    justify-content: flex-end;
+  }
+
+  .team-name {
+    width: 40%;
+    background-color: #099d8d;
+    justify-content: flex-start;
+  }
+
+  .nav-sections a {
+    margin-left: 25px;
+  }
+  .header-title {
+    display: flex;
+    justify-content: center;
+  }
+  .width-section {
+    width: 924px;
   }
   .header-section {
     position: relative;
     top: 409px;
-    margin-left: 100px;
     width: 441px;
-    opacity: 70%;
+    background-color: rgba(255, 255, 255, 0.7);
   }
+
   .team-title,
   .team-subtitle {
     padding: 45px 0 15px 0;
@@ -277,42 +352,23 @@ a {
   }
   .tips-container {
     display: flex;
-    /*HAY QUE CORREGIR LOS MARGENES */
+    justify-content: center;
   }
-
-  .navbar {
+  .tips-width {
+    width: 924px;
     display: flex;
   }
 
-  .nav-sections {
-    width: 60%;
-    height: 60px;
-    justify-content: flex-end;
-    padding-right: 130px;
-  }
-
-  .team-name {
-    width: 40%;
-    background-color: #099d8d;
-    justify-content: flex-start;
-  }
-
-  .title-nav {
-    margin-left: 130px;
-  }
-
-  .nav-sections a {
-    margin-left: 25px;
+  .team-presentation {
+    width: 924px;
   }
   .marta,
   .jorge {
-    margin: auto 200px;
     margin-bottom: 60px;
     display: flex;
     text-align: start;
   }
   .marcos {
-    margin: auto 200px;
     margin-bottom: 60px;
     display: flex;
     flex-direction: row-reverse;
@@ -332,5 +388,32 @@ a {
   .personal-img {
     width: 278px;
     height: 278px;
+  }
+  .footer {
+    border-top: 1px solid #bbbbbb;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    width: 924px;
+  }
+  .footer-team-name {
+    margin-top: 30px;
+  }
+  .footer-list {
+    margin-top: 30px;
+    text-align: end;
+  }
+  .two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    line-height: 30px;
   }
 }
