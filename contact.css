@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .team-name {
+    display: block;
+    color: white;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #077e72;
+    justify-content: center;
+    opacity: 95%;
+  }
+  
+  .title-nav {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-sections {
+    background-color: #099d8d;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 95%;
+  }
+  
+  .nav-sections a {
+    color: white;
+    font-size: 13px;
+    font-family: "Rubik", sans-serif;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .header {
+    height: 421px;
+    background-image: url("./styles/img/img_one.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  .header-section {
+    background-color: #ffffff;
+    margin: 0 15px 10px 15px;
+    padding: 10px;
+    position: relative;
+    top: 280px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .description {
+    margin-bottom:60px;
+    text-align: center;
+  }
+
+  .description h2 {
+    font-family: "Rubik", sans-serif;
+    color: #099d8d;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 15px;
+  }
+
+  .letra-pequeña {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #54585a;
+    margin-top: 15px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #nombre, #email, #phone {
+    height: 45px;
+ }
+
+ #mensaje {
+    height: 105px;
+ }
+
+.form form label,
+.form form input[type="text"],
+.form form input[type="email"],
+.form form textarea {
+   width: calc(100% - 30px)
+}
+
+.layout-style {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.form form input[type="text"],
+.form form input[type="email"],
+.form form input[type="phone"] {
+    margin-bottom: 15px;
+}
+
+.form form label {
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.form form textarea {
+    margin-bottom: 30px;
+ }
+
+ .form form button[type="submit"] {
+    height: 45px;
+    width: calc(100% - 30px);
+    background-color: #099d8d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 60px;
+ }
+
+ ::placeholder {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+span {
+  color: #099d8d;
+}
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .header {
+      margin-bottom: 0;
+    }
+    .header-section {
+      position: relative;
+      top: 280px;
+      margin-left: 30px;
+      width: 441px;
+      opacity: 70%;
+    }
+    
+    .navbar {
+      display: flex;
+    }
+  
+    .nav-sections {
+      width: 60%;
+      height: 60px;
+      justify-content: flex-end;
+      padding-right: 45px;
+    }
+  
+    .team-name {
+      width: 40%;
+      background-color: #099d8d;
+      justify-content: flex-start;
+    }
+  
+    .title-nav {
+      margin-left: 45px;
+    }
+  
+    .nav-sections a {
+      margin-left: 20px;
+    }
+
+    .description {
+      width: 442px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    form {
+      width: 442px;
+      margin: 0 auto; 
+    }
+
+    .form form button[type="submit"] {
+      width: 206px;
+      margin-left: auto;
+    }
+
+    .form form label,
+    .form form input[type="text"],
+    .form form input[type="email"],
+    .form form textarea {
+      width: 100%;
+    }
+
+    .layout-style {
+      width: 100%;
+      margin-right: 30px;
+    }
+
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .header {
+      margin-bottom: 0;
+      height: 550px;
+    }
+    .header-section {
+      position: relative;
+      top: 409px;
+      margin-left: 100px;
+      width: 441px;
+      opacity: 70%;
+    }
+    
+    .navbar {
+      display: flex;
+    }
+  
+    .nav-sections {
+      width: 60%;
+      height: 60px;
+      justify-content: flex-end;
+      padding-right: 130px;
+    }
+  
+    .team-name {
+      width: 40%;
+      background-color: #099d8d;
+      justify-content: flex-start;
+    }
+  
+    .title-nav {
+      margin-left: 130px;
+    }
+  
+    .nav-sections a {
+      margin-left: 25px;
+    }
+
+    .description {
+      width: 601px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    form {
+      width: 601px;
+      margin: 0 auto; 
+    }
+
+    .form form label,
+    .form form input[type="text"],
+    .form form input[type="email"],
+    .form form textarea {
+      width: 100%;
+    }
+
+    .form form button[type="submit"] {
+      width: 206px;
+      margin-left: auto;
+    }
+
+    .form form button[type="submit"] {
+      margin-bottom: 120px;
+    }
+
+    #email {
+      width: 395px;
+      margin-right: 44px;
+    }
+    
+    #phone {
+      width: 162px;
+    }
+
+    .layout-style {
+      display:flex;
+      flex-direction: row;
+      margin-right: 30px;
+    }
+
+  }
