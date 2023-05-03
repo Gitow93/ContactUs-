@@ -152,6 +152,10 @@ a {
   margin: 10px auto 45px;
   color: #077e72;
 }
+.icons {
+  color: #077e72;
+  margin: 5px;
+}
 
 .footer {
   margin-bottom: 45px;
