@@ -50,6 +50,7 @@
     background-position: center;
     margin-bottom: 30px;
   }
+  
   .header-section {
     background-color: #ffffff;
     margin: 0 15px 10px 15px;
@@ -148,9 +149,38 @@ span {
   color: #099d8d;
 }
 
+.footer {
+  margin-bottom: 45px;
+  border-top: 1px solid #bbbbbb;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-team-name {
+  margin: 30px auto 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #bbbbbb;
+}
+
+.footer-list {
+  margin: auto;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #bbbbbb;
+  text-align: center;
+}
+
+.footer-team-logo {
+  margin: auto;
+}
+
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     .header {
-      margin-bottom: 0;
+      margin-bottom: 30px;
     }
     .header-section {
       position: relative;
@@ -162,6 +192,14 @@ span {
     
     .navbar {
       display: flex;
+    }
+  
+    .navbar-color {
+      background-color: #099d8d;
+    }
+  
+    .navbar-width {
+      margin: auto 45px;
     }
   
     .nav-sections {
@@ -213,11 +251,41 @@ span {
       margin-right: 30px;
     }
 
+    .footer {
+      border-top: 1px solid #bbbbbb;
+      margin-bottom: 60px;
+    }
+  
+    .footer-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: 50% 50%;
+      justify-content: space-between;
+      margin: auto 45px;
+    }
+  
+    .footer-team-name {
+      margin-top: 30px;
+    }
+  
+    .footer-list {
+      margin-top: 30px;
+      text-align: end;
+    }
+  
+    .two {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      line-height: 30px;
+    }
+
   }
   
   @media screen and (min-width: 1201px) {
     .header {
-      margin-bottom: 0;
+      margin-bottom: 45px;
       height: 550px;
     }
     .header-section {
@@ -226,6 +294,16 @@ span {
       margin-left: 100px;
       width: 441px;
       opacity: 70%;
+    }
+
+    .navbar-color {
+      background-color: #099d8d;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .navbar-width {
+      width: 924px;
     }
     
     .navbar {
@@ -236,17 +314,12 @@ span {
       width: 60%;
       height: 60px;
       justify-content: flex-end;
-      padding-right: 130px;
     }
   
     .team-name {
       width: 40%;
       background-color: #099d8d;
       justify-content: flex-start;
-    }
-  
-    .title-nav {
-      margin-left: 130px;
     }
   
     .nav-sections a {
@@ -293,6 +366,38 @@ span {
       display:flex;
       flex-direction: row;
       margin-right: 30px;
+    }
+
+    .footer {
+      border-top: 1px solid #bbbbbb;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: 50% 50%;
+      justify-content: space-between;
+      width: 924px;
+    }
+  
+    .footer-team-name {
+      margin-top: 30px;
+    }
+  
+    .footer-list {
+      margin-top: 30px;
+      text-align: end;
+    }
+  
+    .two {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      line-height: 30px;
     }
 
   }
