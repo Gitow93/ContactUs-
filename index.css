@@ -152,6 +152,16 @@ a {
   margin: 10px auto 45px;
   color: #077e72;
 }
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #fffc5f;
+}
+.icons {
+  color: #077e72;
+  margin: 5px;
+}
 
 .footer {
   margin-bottom: 45px;
