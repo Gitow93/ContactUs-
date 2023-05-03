@@ -2,12 +2,6 @@
   box-sizing: border-box;
   margin: 0;
 }
-a:link {
-  text-decoration: none;
-}
-a:hover {
-  color: #fffc5f;
-}
 .icons {
   color: #077e72;
   margin: 5px;
@@ -52,6 +46,12 @@ a:hover {
   font-weight: bold;
 }
 
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #fffc5f;
+}
 .header {
   height: 421px;
   background-image: url("./styles/img/img_one.jpg");
