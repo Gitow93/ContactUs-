@@ -1,0 +1,490 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.team-name {
+  display: block;
+  color: white;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #077e72;
+  justify-content: center;
+  opacity: 95%;
+}
+
+.title-nav {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-sections {
+  background-color: #099d8d;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 95%;
+}
+
+.nav-sections a {
+  color: white;
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header {
+  height: 421px;
+  background-image: url("./styles/img/img_one.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.header-section {
+  background-color: #ffffff;
+  margin: 0 15px 10px 15px;
+  padding: 10px;
+  position: relative;
+  top: 280px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.team-title,
+.team-subtitle {
+  color: #099d8d;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  padding: 30px 0 15px 0;
+  text-align: center;
+}
+
+.team-subtitle {
+  font-size: 22px;
+}
+
+.white-square {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 11px;
+  margin: auto;
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+.team-paragraph {
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 10px 30px;
+  margin: auto;
+}
+
+.p1,
+.p2 {
+  color: #54585a;
+  text-align: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.p2 {
+  padding-bottom: 45px;
+}
+
+.tips-container {
+  background-color: #dbdbdb;
+  color: #54585a;
+}
+
+.team-presentation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.presentation-title {
+  margin: 30px 0;
+  color: #099d8d;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+}
+
+.personal-img {
+  border: 5px solid #f7f7f7;
+  border-radius: 20px;
+}
+
+.personal-name {
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.personal-description {
+  margin: 10px 10px auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+
+.social-media,
+a {
+  margin: 10px auto 45px;
+  color: #077e72;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #fffc5f;
+}
+.icons {
+  color: #077e72;
+  margin: 5px;
+}
+
+.footer {
+  margin-bottom: 45px;
+  border-top: 1px solid #bbbbbb;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-team-name {
+  margin: 30px auto 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #bbbbbb;
+}
+
+.footer-list {
+  margin: auto;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #bbbbbb;
+  text-align: center;
+}
+
+.footer-team-logo {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header {
+    margin-bottom: 0;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .navbar-color {
+    background-color: #099d8d;
+  }
+
+  .navbar-width {
+    margin: auto 45px;
+  }
+
+  .nav-sections {
+    width: 60%;
+    height: 60px;
+    justify-content: flex-end;
+    padding-right: 45px;
+  }
+
+  .team-name {
+    width: 40%;
+    background-color: #099d8d;
+    justify-content: flex-start;
+  }
+
+  .title-nav {
+    margin-left: 45px;
+  }
+
+  .nav-sections a {
+    margin-left: 20px;
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .width-section {
+    margin: auto 45px;
+  }
+
+  .header-section {
+    position: relative;
+    top: 280px;
+    margin-left: 30px;
+    width: 441px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .team-title,
+  .team-subtitle {
+    padding: 45px 0 15px 0;
+  }
+
+  .team-paragraph {
+    padding: 15px 30px 60px;
+    width: 601px;
+  }
+
+  .p1,
+  .p2 {
+    text-align: center;
+    justify-content: center;
+    padding: 0 15px 45px 15px;
+  }
+
+  .tips-container {
+    display: flex;
+  }
+
+  .tips-width {
+    margin: auto 45px;
+  }
+
+  .team-presentation {
+    margin: auto 45px;
+  }
+
+  .marta,
+  .jorge {
+    margin-bottom: 60px;
+    display: flex;
+    text-align: start;
+  }
+
+  .marcos {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+
+  .info-container {
+    margin: auto 30px;
+  }
+
+  .personal-name {
+    margin-bottom: 15px;
+  }
+
+  .personal-description {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .personal-img {
+    width: 205px;
+    height: 205px;
+  }
+
+  .footer {
+    border-top: 1px solid #bbbbbb;
+    margin-bottom: 60px;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    margin: auto 45px;
+  }
+
+  .footer-team-name {
+    margin-top: 30px;
+  }
+
+  .footer-list {
+    margin-top: 30px;
+    text-align: end;
+  }
+
+  .two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .header {
+    margin-bottom: 0;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-color {
+    background-color: #099d8d;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-width {
+    width: 924px;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .nav-sections {
+    width: 60%;
+    height: 60px;
+    justify-content: flex-end;
+  }
+
+  .team-name {
+    width: 40%;
+    background-color: #099d8d;
+    justify-content: flex-start;
+  }
+
+  .nav-sections a {
+    margin-left: 25px;
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .width-section {
+    width: 924px;
+  }
+
+  .header-section {
+    position: relative;
+    top: 409px;
+    width: 441px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .team-title,
+  .team-subtitle {
+    padding: 45px 0 15px 0;
+  }
+
+  .team-paragraph {
+    padding: 15px 30px 30px 30px;
+    width: 601px;
+  }
+
+  .p1,
+  .p2 {
+    text-align: center;
+    justify-content: center;
+    padding: 0 22.5px 60px 22.5px;
+  }
+
+  .tips-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tips-width {
+    width: 924px;
+    display: flex;
+  }
+
+  .team-presentation {
+    width: 924px;
+  }
+
+  .marta,
+  .jorge {
+    margin-bottom: 60px;
+    display: flex;
+    text-align: start;
+  }
+
+  .marcos {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+
+  .info-container {
+    margin: auto 45px;
+    width: 439px;
+  }
+
+  .personal-name {
+    margin-bottom: 15px;
+  }
+
+  .personal-description {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .personal-img {
+    width: 278px;
+    height: 278px;
+  }
+
+  .footer {
+    border-top: 1px solid #bbbbbb;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    width: 924px;
+  }
+
+  .footer-team-name {
+    margin-top: 30px;
+  }
+
+  .footer-list {
+    margin-top: 30px;
+    text-align: end;
+  }
+
+  .two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    line-height: 30px;
+  }
+}
