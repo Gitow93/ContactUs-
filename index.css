@@ -59,7 +59,7 @@
   position: relative;
   top: 280px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 24px;
 }
@@ -97,17 +97,19 @@
 }
 
 .p1,
-.p2 {
+.p2,
+.p3 {
   color: #54585a;
   text-align: center;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   padding: 0 10px;
+  margin: 20px;
 }
 
-.p2 {
-  padding-bottom: 45px;
+.p3 {
+  padding-bottom: 5px;
 }
 
 .tips-container {
@@ -132,6 +134,8 @@
 .personal-img {
   border: 5px solid #f7f7f7;
   border-radius: 20px;
+  width: 187px;
+  height: 187px;
 }
 
 .personal-name {
@@ -192,6 +196,11 @@ a:hover {
   margin: auto;
 }
 
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header {
     margin-bottom: 0;
@@ -241,7 +250,7 @@ a:hover {
 
   .header-section {
     position: relative;
-    top: 280px;
+    top: 315px;
     margin-left: 30px;
     width: 441px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -276,7 +285,6 @@ a:hover {
     margin: auto 45px;
   }
 
-  .marta,
   .jorge {
     margin-bottom: 60px;
     display: flex;
@@ -387,7 +395,7 @@ a:hover {
 
   .header-section {
     position: relative;
-    top: 409px;
+    top: 450px;
     width: 441px;
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -406,7 +414,7 @@ a:hover {
   .p2 {
     text-align: center;
     justify-content: center;
-    padding: 0 22.5px 60px 22.5px;
+    padding: 0 22.5px 0 22.5px;
   }
 
   .tips-container {
