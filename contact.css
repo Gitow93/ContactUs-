@@ -190,6 +190,11 @@ span {
   margin: auto;
 }
 
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header {
     margin-bottom: 30px;
